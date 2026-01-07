@@ -1,0 +1,5 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" role="img" aria-label="Placeholder icon">
+  <rect x="0" y="0" width="64" height="64" rx="32" ry="32" fill="#e7f3ed"/>
+  <path d="M22 26c0-4 3-7 7-7h6c4 0 7 3 7 7v12c0 4-3 7-7 7h-6c-4 0-7-3-7-7V26z" fill="#c6e7d6"/>
+  <path d="M26 26c0-2 2-4 4-4h4c2 0 4 2 4 4v12c0 2-2 4-4 4h-4c-2 0-4-2-4-4V26z" fill="#9fdab9"/>
+</svg>

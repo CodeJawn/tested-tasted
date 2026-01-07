@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+
+<html class="light" lang="en"><head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title>Tested &amp; Tasted — Customize Sources</title>
+<script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+<link href="https://fonts.googleapis.com/css2?family=Work+Sans:wght@300;400;500;600;700;900&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<script>
+        tailwind.config = {
+            darkMode: "class",
+            theme: {
+                extend: {
+                    colors: {
+                        "primary": "#13ec80",
+                        "background-light": "#f6f8f7",
+                        "background-dark": "#102219",
+                    },
+                    fontFamily: {
+                        "display": ["Work Sans", "sans-serif"]
+                    },
+                    borderRadius: {"DEFAULT": "1rem", "lg": "2rem", "xl": "3rem", "full": "9999px"},
+                },
+            },
+        }
+    </script>
+<style>
+        body {
+            font-family: "Work Sans", sans-serif;
+        }
+    </style>
+</head>
+<body class="bg-background-light dark:bg-background-dark text-[#0d1b14] dark:text-white font-display flex flex-col min-h-screen"><header class="w-full flex justify-center px-6 py-5 z-20">
+<div class="w-full max-w-[1200px] flex items-center justify-between">
+<div class="flex items-center gap-3">
+<div class="size-8 rounded-full bg-primary flex items-center justify-center text-[#0d1b14]">
+<span class="material-symbols-outlined text-xl">restaurant_menu</span>
+</div>
+<h2 class="text-xl font-bold tracking-tight text-[#0d1b14] dark:text-white">Tested &amp; Tasted</h2>
+</div>
+</div>
+</header>
+<div class="relative flex w-full flex-col overflow-x-hidden flex-1">
+
+<main class="flex-1 flex justify-center py-8 px-4 sm:px-6 lg:px-8">
+<div class="flex flex-col max-w-[960px] w-full gap-10">
+<div class="flex flex-col gap-6 md:flex-row md:items-end md:justify-between p-4">
+<div class="flex flex-col gap-3 max-w-lg">
+<h1 class="text-4xl md:text-5xl font-black leading-tight tracking-[-0.033em] text-[#0d1b14] dark:text-white">Customize Sources</h1>
+<p class="text-[#4c9a73] dark:text-[#8abea4] text-lg font-normal leading-normal">Control which websites appear in your search results. Turn off sources you don't use to refine your discovery.</p>
+</div>
+</div>
+<div class="grid grid-cols-1 md:grid-cols-2 gap-4 px-4" id="sources-list"></div>
+<div class="flex flex-col-reverse md:flex-row items-center justify-end gap-4 p-4 mt-4 border-t border-[#e7f3ed] dark:border-[#1e3a2d]">
+<a class="w-full md:w-auto px-8 h-12 rounded-full text-base font-bold text-[#0d1b14] dark:text-white bg-transparent hover:bg-[#e7f3ed] dark:hover:bg-[#1e3a2d] transition-colors" href="index.html">Cancel</a>
+<button class="w-full md:w-auto px-10 h-12 rounded-full text-base font-bold text-[#0d1b14] bg-primary hover:bg-[#0fd672] shadow-lg shadow-primary/30 transition-all transform active:scale-95 flex items-center justify-center gap-2" id="save-sources">
+<span class="material-symbols-outlined text-[20px]">check</span>
+                        Save Changes
+                    </button>
+</div>
+</div>
+</main>
+</div>
+
+<footer class="w-full py-6 flex justify-center mt-auto border-t border-[#0d1b14]/5 dark:border-white/5">
+<div class="w-full max-w-[1200px] px-6 flex flex-col md:flex-row items-center justify-between gap-4 text-xs font-medium text-[#0d1b14]/40 dark:text-white/40">
+<div class="flex gap-6">
+<span>© <span id="copyright-year"></span> Tested &amp; Tasted</span>
+</div>
+<div class="flex items-center gap-1 group cursor-pointer hover:text-primary transition-colors">
+<span>Don't see your favorite site?</span>
+<a class="underline decoration-primary/50 underline-offset-2 decoration-2 group-hover:decoration-primary" href="#">Request to add it</a>
+<span class="material-symbols-outlined text-sm">arrow_outward</span>
+</div>
+</div>
+</footer><script src="js/app.js"></script><script src="js/sources.js"></script></body></html>

@@ -1,0 +1,50 @@
+[
+  {
+    "id": "seriouseats",
+    "name": "Serious Eats",
+    "domain": "seriouseats.com",
+    "icon": "assets/icons/placeholder.svg"
+  },
+  {
+    "id": "americastestkitchen",
+    "name": "America's Test Kitchen",
+    "domain": "americastestkitchen.com",
+    "icon": "assets/icons/placeholder.svg"
+  },
+  {
+    "id": "recipetineats",
+    "name": "RecipeTin Eats",
+    "domain": "recipetineats.com",
+    "icon": "assets/icons/placeholder.svg"
+  },
+  {
+    "id": "nyt-cooking",
+    "name": "NYT Cooking",
+    "domain": "cooking.nytimes.com",
+    "icon": "assets/icons/placeholder.svg"
+  },
+  {
+    "id": "bonappetit",
+    "name": "Bon App\u00e9tit",
+    "domain": "bonappetit.com",
+    "icon": "assets/icons/placeholder.svg"
+  },
+  {
+    "id": "epicurious",
+    "name": "Epicurious",
+    "domain": "epicurious.com",
+    "icon": "assets/icons/placeholder.svg"
+  },
+  {
+    "id": "foodnetwork",
+    "name": "Food Network",
+    "domain": "foodnetwork.com",
+    "icon": "assets/icons/placeholder.svg"
+  },
+  {
+    "id": "allrecipes",
+    "name": "AllRecipes",
+    "domain": "allrecipes.com",
+    "icon": "assets/icons/placeholder.svg"
+  }
+]
