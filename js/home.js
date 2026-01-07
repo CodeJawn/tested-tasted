@@ -41,7 +41,8 @@
   // Initial icon render
   const disabled = TT.getDisabledIds();
   const enabled = TT.computeEnabledSources(sources, disabled);
-  renderIcons(enabled);
+  const enabledForHomepage = enabled.filter(src => src.homepage === true);
+  renderIcons(enabledForHomepage);
 
   function showError(message) {
     if (!err) return;

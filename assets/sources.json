@@ -3,48 +3,133 @@
     "id": "seriouseats",
     "name": "Serious Eats",
     "domain": "seriouseats.com",
-    "icon": "assets/icons/placeholder.svg"
+    "icon": "assets/icons/seriouseats.jpg",
+    "homepage": true
   },
   {
-    "id": "americastestkitchen",
-    "name": "America's Test Kitchen",
-    "domain": "americastestkitchen.com",
-    "icon": "assets/icons/placeholder.svg"
+    "id": "bonappetit",
+    "name": "Bon Appétit",
+    "domain": "bonappetit.com",
+    "icon": "assets/icons/bonappetit.png",
+    "homepage": true
   },
   {
     "id": "recipetineats",
     "name": "RecipeTin Eats",
     "domain": "recipetineats.com",
-    "icon": "assets/icons/placeholder.svg"
+    "icon": "assets/icons/recipetineats.jpg",
+    "homepage": true
+  },
+  {
+    "id": "americastestkitchen",
+    "name": "America's Test Kitchen",
+    "domain": "americastestkitchen.com",
+    "icon": "assets/icons/americastestkitchen.png",
+    "homepage": true
   },
   {
     "id": "nyt-cooking",
     "name": "NYT Cooking",
     "domain": "cooking.nytimes.com",
-    "icon": "assets/icons/placeholder.svg"
+    "icon": "assets/icons/nyt-cooking.png",
+    "homepage": true
   },
   {
-    "id": "bonappetit",
-    "name": "Bon App\u00e9tit",
-    "domain": "bonappetit.com",
-    "icon": "assets/icons/placeholder.svg"
+    "id": "budgetbytes",
+    "name": "Budget Bytes",
+    "domain": "budgetbytes.com",
+    "icon": "assets/icons/budgetbytes.png",
+    "homepage": false
   },
   {
-    "id": "epicurious",
-    "name": "Epicurious",
-    "domain": "epicurious.com",
-    "icon": "assets/icons/placeholder.svg"
+    "id": "sallysbaking",
+    "name": "Sally's Baking",
+    "domain": "sallysbakingaddiction.com",
+    "icon": "assets/icons/sallysbakingaddiction.png",
+    "homepage": true
   },
   {
-    "id": "foodnetwork",
-    "name": "Food Network",
-    "domain": "foodnetwork.com",
-    "icon": "assets/icons/placeholder.svg"
+    "id": "smittenkitchen",
+    "name": "Smitten Kitchen",
+    "domain": "smittenkitchen.com",
+    "icon": "assets/icons/smittenkitchen.jpg",
+    "homepage": true
   },
   {
-    "id": "allrecipes",
-    "name": "AllRecipes",
-    "domain": "allrecipes.com",
-    "icon": "assets/icons/placeholder.svg"
+    "id": "thewoksoflife",
+    "name": "The Woks of Life",
+    "domain": "thewoksoflife.com",
+    "icon": "assets/icons/thewoksoflife.png",
+    "homepage": true
+  },
+  {
+    "id": "kingarthurbaking",
+    "name": "King Arthur Baking",
+    "domain": "kingarthurbaking.com",
+    "icon": "assets/icons/kingarthurbaking.jpg",
+    "homepage": true
+  },
+  {
+    "id": "maangchi",
+    "name": "Maangchi",
+    "domain": "maangchi.com",
+    "icon": "assets/icons/maangchi.jpg",
+    "homepage": false
+  },
+  {
+    "id": "themediterraneandish",
+    "name": "The Mediterranean Dish",
+    "domain": "themediterraneandish.com",
+    "icon": "assets/icons/themediterraneandish.jpg",
+    "homepage": false
+  },
+  {
+    "id": "chopstickchronicles",
+    "name": "Chopstick Chronicles",
+    "domain": "chopstickchronicles.com",
+    "icon": "assets/icons/chopstickchronicles.jpg",
+    "homepage": false
+  },
+  {
+    "id": "preppykitchen",
+    "name": "Preppy Kitchen",
+    "domain": "preppykitchen.com",
+    "icon": "assets/icons/preppykitchen.png",
+    "homepage": false
+  },
+  {
+    "id": "altonbrown",
+    "name": "Alton Brown",
+    "domain": "altonbrown.com",
+    "icon": "assets/icons/altonbrown.svg",
+    "homepage": false
+  },
+  {
+    "id": "rickbayless",
+    "name": "Rick Bayless",
+    "domain": "rickbayless.com",
+    "icon": "assets/icons/rickbayless.svg",
+    "homepage": false
+  },
+  {
+    "id": "hotthaikitchen",
+    "name": "Hot Thai Kitchen",
+    "domain": "hot-thai-kitchen.com",
+    "icon": "assets/icons/hotthaikitchen.jpg",
+    "homepage": false
+  },
+  {
+    "id": "pinchofyum",
+    "name": "Pinch of Yum",
+    "domain": "pinchofyum.com",
+    "icon": "assets/icons/pinchofyum.svg",
+    "homepage": false
+  },
+  {
+    "id": "milkstreet",
+    "name": "Milk Street",
+    "domain": "177milkstreet.com",
+    "icon": "assets/icons/milkstreet.jpg",
+    "homepage": false
   }
 ]
